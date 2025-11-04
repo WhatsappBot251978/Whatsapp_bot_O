@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-chatbot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.1"
+  },
+  "description": "1. Create a [Meta Developer App](https://developers.facebook.com/)\r 2. Add the WhatsApp product\r 3. Generate a permanent access token\r 4. Copy your `Phone Number ID` and paste it in `bot.js`\r 5. Deploy this project (Render, Railway, Vercel)\r 6. In Meta Dashboard → WhatsApp → Configuration → Configure Webhooks:\r    - Callback URL: `https://your-domain.com/webhook`\r    - Verify Token: `my_verify_token`",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

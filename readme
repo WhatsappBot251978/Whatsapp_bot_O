@@ -1,0 +1,13 @@
+# WhatsApp Cloud API Chatbot
+
+### 🔧 Setup
+1. Create a [Meta Developer App](https://developers.facebook.com/)
+2. Add the WhatsApp product
+3. Generate a permanent access token
+4. Copy your `Phone Number ID` and paste it in `bot.js`
+5. Deploy this project (Render, Railway, Vercel)
+6. In Meta Dashboard → WhatsApp → Configuration → Configure Webhooks:
+   - Callback URL: `https://your-domain.com/webhook`
+   - Verify Token: `my_verify_token`
+
+### 🧪 Local Testing
